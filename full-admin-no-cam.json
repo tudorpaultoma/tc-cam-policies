@@ -1,0 +1,34 @@
+{
+    "version": "2.0",
+    "statement": [
+        {
+            "effect": "allow",
+            "action": "*",
+            "resource": "*"
+        },
+        {
+            "effect": "deny",
+            "action": [
+                "cam:AddUser",
+                "cam:DeleteUser",
+                "cam:UpdateUser",
+                "cam:CreateGroup",
+                "cam:DeleteGroup",
+                "cam:UpdateGroup",
+                "cam:AddUserToGroup",
+                "cam:RemoveUserFromGroup",
+                "cam:AttachGroupPolicy",
+                "cam:DetachGroupPolicy",
+                "cam:AttachUserPolicy",
+                "cam:DetachUserPolicy",
+                "cam:CreateAccessKey",
+                "cam:DeleteAccessKey",
+                "cam:UpdateAccessKey",
+                "cam:CreateSAMLProvider",
+                "cam:UpdateSAMLProvider",
+                "cam:DeleteSAMLProvider"
+            ],
+            "resource": "*"
+        }
+    ]
+}
